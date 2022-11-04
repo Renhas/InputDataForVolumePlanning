@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Agmon_Motzkin">
+      <HintPath>..\..\VolumePlanning\GeneralizedSystem\bin\Release\net6.0-windows\Agmon_Motzkin.dll</HintPath>
+    </Reference>
+    <Reference Include="GeneralizedSystem">
+      <HintPath>..\..\VolumePlanning\GeneralizedSystem\bin\Release\net6.0-windows\GeneralizedSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="SLAN">
+      <HintPath>..\..\VolumePlanning\GeneralizedSystem\bin\Release\net6.0-windows\SLAN.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
